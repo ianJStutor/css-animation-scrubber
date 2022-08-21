@@ -6,11 +6,11 @@
 
 ### Live Site
 
-> [https://ianjstutor.github.io/whiteboard/](https://ianjstutor.github.io/whiteboard/)
+> [https://ianjstutor.github.io/css-animation-scrubber/](https://ianjstutor.github.io/css-animation-scrubber/)
 
 ### Description
 
-A web application for testing CSS animations. The end result is generated CSS code that can be used on a website to trigger exactly the animation designed using this tool. The end result is pure CSS and will not need JavaScript.
+A web application for testing CSS animations. The end result is auto-generated CSS code that can be used on a website to trigger exactly the animation designed using this tool. The end result is pure CSS and will not need JavaScript.
 
 ### How Does It Work?
 
