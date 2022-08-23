@@ -18,7 +18,7 @@ There are two little tricks that took some time to ferret out.
 
 #### Negative <code>animationDelay</code>
 
-This CSS property is not usually associated with negative values. However, it's possible to subtract time from the end state with negative values, effectively enabling the "scrubbing" of a CSS animation: starting at different points in the timeline, going forward or backwards, skipping portions--all from an HTML slider.
+This CSS property is not usually associated with negative values. However, it's possible to subtract time from the end state with negative values, effectively enabling the "scrubbing" of a CSS animation: starting at different points in the timeline, going forward or backwards, skipping portions&mdash;all from an HTML slider.
 
 #### Looking up an element's <code>offsetHeight</code> property to reset animation timing
 

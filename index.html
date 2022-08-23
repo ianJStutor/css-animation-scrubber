@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>CSS Animation Scrubber | Ian Marshall</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <script defer src="assets/js/main.js"></script>
+        <style></style>
+    </head>
+    <body>
+        <header>
+            <h1>CSS Animation Scrubber</h1>
+        </header>
+        <main>
+            <div id="myDiv"></div>
+        </main>
+        <nav>
+            <button title="Rewind">&#8739;&#x025C0;&#x025C0;</button>
+            <button title="Play">&#9658;</button>
+            <input type="range" min="0" max="10" step="0.1" value="0" />
+        </nav>
+        <footer>
+            <h2>HTML</h2>
+            <textarea></textarea>
+            <h2>CSS Static</h2>
+            <textarea>#myDiv {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: animate 5s ease-in-out;
+}</textarea>
+            <h2>CSS Animation</h2>
+            <textarea>@keyframes animate {
+    from: { transform: translate(0) rotate(0); }
+    to: {transform: translateX(300px) rotate(190deg);}
+}</textarea>
+        </footer>
+    </body>
+</html>

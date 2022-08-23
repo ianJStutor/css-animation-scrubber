@@ -1,0 +1,72 @@
+html {
+    background: linear-gradient(to right, #1a1a1a, silver, #1a1a1a);
+}
+
+body {
+    margin: 0 auto;
+    background: aliceblue;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+    box-sizing: border-box;
+    min-height: 100vh;
+    max-width: 1000px;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 1px;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid lightcyan;
+    box-shadow: 0 3px 0 darkcyan;
+}
+
+main, nav, footer {
+    margin: 25px auto;
+    width: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 300px;
+    background: white;
+    border: 1px solid darkcyan;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav button {
+    margin-right: 10px;
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+nav button:hover {
+    box-shadow: 0 0 5px black;
+}
+
+nav input {
+    flex-grow: 1;
+}
+
+textarea {
+    width: 100%;
+    min-height: 125px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+textarea:first-of-type {
+    min-height: 50px;
+}
