@@ -14,7 +14,11 @@ A web application for testing CSS animations. The end result is auto-generated C
 
 ### How Does It Work?
 
-There are two little tricks that took some time to ferret out.
+There are three little tricks that took some time to ferret out.
+
+#### Dynamic CSS injection
+
+It's possible not only to access a style element ()<code>document.head.querySelector("style")</code>) but also to alter its contents as needed using JavaScript. The CSS rendering engine is reengaged when doing this, meaning that the new CSS rules are automatically calculated.
 
 #### Negative <code>animationDelay</code>
 
