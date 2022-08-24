@@ -62,11 +62,22 @@ nav input {
     flex-grow: 1;
 }
 
+fieldset {
+    background-color: lightcyan;
+    border-radius: 10px;
+}
+
+fieldset button {
+    margin: 20px auto;
+    display: block;
+}
+
 textarea {
     width: 100%;
     min-height: 125px;
     padding: 15px;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 p {
