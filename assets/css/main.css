@@ -22,6 +22,11 @@ header {
     box-shadow: 0 3px 0 darkcyan;
 }
 
+h1 {
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: 400;
+}
+
 main, nav, footer {
     margin: 25px auto;
     width: 90%;
